@@ -26,24 +26,6 @@ HTML5	Page structure
 CSS3	Styling and responsive design
 JavaScript	Front-end interactions and animations
 
-# 📁 Project Structure
-PORTFOLIO_PROJECT/
-│
-├── node_modules/               # Installed dependencies
-│
-├── Portfolio/                  # Main project directory
-│   ├── css/                    # Stylesheets
-│   ├── js/                     # Front-end scripts
-│   ├── images/                 # Project images and assets
-│   ├── index.ejs               # Home page template
-│   ├── about.ejs               # About page template
-│   └── contact.ejs             # Contact page template
-│
-├── .gitignore                  # Ignored files
-├── package.json                # Project metadata and dependencies
-├── package-lock.json           # Locked dependency versions
-└── server.js                   # Main Express server file
-
 # ⚙️ How It Works
 
 The Express server (server.js) initializes and renders EJS templates for different routes.
